@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+body {
+  background-color: rgb(255, 255, 204);
+  text-align: center;
+}
+
+.navlist {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("UWLogo.png");
+  background-position: 10px top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Main */
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  justify-items: center;
+  align-content: center;
+  margin: 10px;
+  gap: 50px;
+}
+
+header h1 {
+  text-decoration: underline;
+}
+
+header img {
+  border-radius: 50px;
+  box-shadow: 0 0 15px black;
+}
+
+.skyline {
+  box-shadow: none;
+}
+
+/* Second Section */
+section {
+  background-image: url("mountRainier.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  background-color: purple;
+  height: 70vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 10%;
+}
+
+.grid-item {
+  color: rgb(255, 255, 204);
+  margin: 0 10%;
+}
+
+.background-card {
+  height: 200vh;
+  background: linear-gradient(180deg, purple 20%, rgb(255, 255, 204) 20%);
+}
+
+.skill-card {
+  margin: 0 10%;
+  height: 160vh;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  border-radius: 15px;
+}
+
+.skill-item {
+  margin: 10px;
+  padding: 5px;
+  border-bottom: 1px solid grey;
+}
+.skill-item:last-child {
+  border-bottom: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.skill-item>* {
+  margin: 30px 0;
+}
+
+.skill-item>h1 {
+  color: purple;
+}
+
+
+/* My Recent Work */
+
+.recent-work {
+  margin-top: 30px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10px 20px repeat(5, 1fr);
+  gap: 20px;
+
+
+}
+
+.work-item {
+
+  height:25vh;
+  margin: 0 100px;
+  padding: 0;
+  border: 1px solid grey;
+  border-radius:15px;
+   background-image: url("highspot.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center top;
+  opacity: .7; */
+}
